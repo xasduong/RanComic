@@ -1,0 +1,31 @@
+.close{display: none;}
+.open{display: block;}
+@media only screen and (min-width: 480px)  {
+	.item_infor > span{
+		top: 12px; 
+	}
+}
+@media only screen and (max-width: 480px)  {
+	#web-back{
+		bottom: 2%;
+		right: 12px;
+	}
+	#web-img img{
+		width: 100%;
+	}
+	.current-comic{font-size: 18px;}
+	#web-item { 
+		display: grid;
+		padding: 4px;
+		grid-template-columns: repeat(2, 1fr);
+
+	}
+	.item_infor-name {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+	}
+}
+	
