@@ -13,7 +13,6 @@ let boxComic = z('#box-comic');
 (function startWeb() {
 	handleImages(getRandom, boxImg);
 	let arrayImages = images.sort((a, b) => b.lengthImg - a.lengthImg)
-	console.log(arrayImages);
 	webItem.innerHTML = arrayImages.map(renderItemComic).join('');
 	handleWebItem();
 	webItem.onclick = () => {
