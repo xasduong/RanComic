@@ -13,12 +13,32 @@
 	#web-img img{
 		width: 100%;
 	}
-	.current-comic{font-size: 18px;}
+	#web-nav{
+		border-radius: 0px;
+	}
+	.web-nav_head{
+		margin-left: 12px;
+	}
+	.current-comic{
+		display: none;
+	}
 	#web-item { 
 		display: grid;
 		padding: 4px;
 		grid-template-columns: repeat(2, 1fr);
 
+	}
+	.box-set_wrap{
+		width: 300px;
+	}
+	.set_wrap-server > span{
+		padding: 5px 12px;
+
+	}
+
+	#box-name_list{
+		max-width: 280px;
+		right: -80%;
 	}
 	.item_infor-name {
 		overflow: hidden;
